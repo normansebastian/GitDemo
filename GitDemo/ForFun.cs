@@ -8,6 +8,7 @@ namespace GitDemo
 {
     class ForFun
     {
-        string a = "its a joke";
+        private const string a = "its the joker";
+        public string A { get => a; }
     }
 }

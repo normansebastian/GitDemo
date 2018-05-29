@@ -12,8 +12,8 @@ namespace GitDemo
         {
             while(true)
                 {
-                    Console.WriteLine("Lets blame Sebastian !");
-                    Console.ReadKey(false);
+                    Console.WriteLine("Lets blame Sebastian for: " + ForFun.A);
+                    Console.ReadKey(true);
                 }
             
         }
