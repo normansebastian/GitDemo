@@ -10,8 +10,12 @@ namespace GitDemo
     {
         static void Main(string[] args)
         {
-
-            Console.WriteLine("git me");
+            while(true)
+                {
+                    Console.WriteLine("Lets blame Sebastian !");
+                    Console.ReadKey(false);
+                }
+            
         }
     }
 }
