@@ -13,9 +13,11 @@ namespace GitDemo
             while(true)
                 {
                     Console.WriteLine("Lets blame Sebastian !");
+                    //Console.ReadKey(true);
                     Console.ReadKey(false);
-                }
-            
+
+            }
+
         }
     }
 }
