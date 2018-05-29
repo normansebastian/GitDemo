@@ -9,6 +9,6 @@ namespace GitDemo
     class Demo
     {
 
-        static void Hello(string name) => Console.WriteLine($"Tjenis, hallå {name}!");
+       public static void Hello(string name) => Console.WriteLine($"Tjenis, hallå {name}!");
     }
 }

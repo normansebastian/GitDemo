@@ -10,14 +10,15 @@ namespace GitDemo
     {
         static void Main(string[] args)
         {
-            while(true)
-                {
-                    Console.WriteLine("Lets blame Sebastian !");
-                    //Console.ReadKey(true);
-                    Console.ReadKey(false);
+
+            Demo.Hello("Adrian");
+
+            while (true)
+            {
+                Console.WriteLine("Lets blame Sebastian :-) !");
+                Console.ReadKey(true);
 
             }
-
         }
     }
 }
